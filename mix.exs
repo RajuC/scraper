@@ -30,7 +30,7 @@ defmodule Scraper.Mixfile do
   defp deps do
     [
      {:httpoison,           "~> 0.11.0"                   },
-     {:floki,               "~> 0.13.1"                   } 
+     {:floki,               "~> 0.13.1"                   }
     ]
   end
 end
