@@ -13,13 +13,13 @@ end
 
 
   ## Examples
-```
+
+```elixir
 
  Scraper.scrape("https://twitter.com/darrenrovell/status/839225719075049473")                                                                                              
-%{description: "“New paint job on Michael Jordan's private jet features the familiar Jordan shoe \"Elephant Print\" (Credit: Instagram/CorporateJets)”",
+%{description: "“New paint job on Michael Jordan's private jet features CorporateJets)”",
   image: "https://pbs.twimg.com/media/C6WHVoDUwAAViOZ.jpg:large",
   title: "Darren Rovell on Twitter",
   url: "https://twitter.com/darrenrovell/status/839225719075049473"}
 
 ```
-
